@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -24,7 +26,20 @@ public class Main {
         //        Don’t forget to stage and commit changes in git as you go along
         // Bonus: Get the words to fill each array by asking the user to supply them.
 
-        
+        String [] noun = {"Dog", "Computer", "Rabbit", "Cake", "Horse"};
+        String [] adjective = {"shinny", "big", "green", "beautiful", "red"};
+        String [] verb = {"run", "jump", "sleep", "stand", "sit"};
+
+        Random random = new Random(System.currentTimeMillis());
+
+        System.out.println("Once upon a time there was a " + noun[random.nextInt(5)]);
+        System.out.println("However, it was an undercover " +noun[random.nextInt(5)]);
+        System.out.println("The only thing it did was " +verb[random.nextInt(5)]);
+
+
+
+
+
 
 
 
