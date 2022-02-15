@@ -33,7 +33,7 @@ public class Main {
         Random random = new Random(System.currentTimeMillis());
 
         System.out.println("Once upon a time there was a " + noun[random.nextInt(5)]);
-        System.out.println("However, it was an undercover " +noun[random.nextInt(5)]);
+        System.out.println("It was very " +adjective[random.nextInt(5)]);
         System.out.println("The only thing it did was " +verb[random.nextInt(5)]);
 
 
